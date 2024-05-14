@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --body-font: "Aral", "serif";
+    --color1: black;
+    --color2: #0c0c23;
+    --color3: #022530;
+    --color4: #054961;
+    --color5: white;
+    --color6: #ffff00;
+    /* hsl - mtraiz, saturação e leveza das cores: 0 a 360 */
+    --color7: hsl(0, 80%, 90%);
+}
+
+html{
+    /* Técnica do root Font-size: 62.5% faz a conversão de pixel para rem mais fácil,
+    pois a base para cálculo passar a ser 10 em vez de 16, é possível fazer com 1rem 
+    seja equivalente a 1px */
+    font-size: 62.5%;
+}
+
+body{
+    background: var(--color3);
+    font-family: var(--body-font);
+    line-height: 1.5;
+}
+
+header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
