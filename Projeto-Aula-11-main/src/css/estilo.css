@@ -142,7 +142,7 @@ header{
 
 .home-image:hover{
     cursor: pointer;
-    animation: carro 0.9 ease-in-out infinite;
+    animation: carro 0.9s ease-in-out infinite;
 }
 
 @keyframes carro{
